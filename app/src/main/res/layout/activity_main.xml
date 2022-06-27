@@ -5,17 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    android:background="@color/gray"
     tools:context=".MainActivity">
 
     <GridView
-        android:horizontalSpacing="5pt"
-        android:verticalSpacing="5pt"
-        android:columnWidth="64pt"
-        android:numColumns="auto_fit"
         android:id="@+id/gvListFood"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:columnWidth="64pt"
+        android:horizontalSpacing="5pt"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="5pt"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp" />
 

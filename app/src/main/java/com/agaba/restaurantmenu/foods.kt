@@ -1,6 +1,6 @@
 package com.agaba.restaurantmenu
 
-class foods {
+class Food {
     var name:String? =null
     var des:String? =null
     var image:Int? =null
